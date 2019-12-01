@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+
+int main(){
+
+int a, n;
+int wyn,i,j = 0;
+int x = 1;
+
+printf("Wpisz podstawę potęgi");
+scanf("%d", &a);
+printf("Wpisz wykładnik potęgi:");
+scanf("%d", &n);
+
+for(j = 0; j != n; )
+{
+   wyn=0;
+    for(i=0; i=a; )
+    {
+        if (i = a)
+        {
+            x=wyn;
+            j++;
+            i=0;
+        }
+            else
+                wyn+=x;
+            i++;
+        }
+    }
+
+    printf("%d\n", x);
+return 0;
+}
+
