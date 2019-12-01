@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+int main()
+{
+    int a, n;
+    int wyn = 0, i = 0, j = 0;
+    int x = 1;
+
+    puts("To juz czas aby Pasterz wprowadził podstawę potęgi: ");
+    scanf("%d", &a);
+    puts("To juz czas aby Pasterz wprowadził wykładnik potęgi: ");
+    scanf("%d", &n);
+
+    while(j != n){
+        wyn = 0;
+        while(i != a){
+                wyn += x;
+                i++;
+            }
+   x = wyn;
+   j++;
+   i = 0;
+
+    }
+
+    printf("Wynik Pana i Mojej pracy %d", x);
+
+
+
+    return 0;
+}
